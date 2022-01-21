@@ -1,6 +1,9 @@
 let αριθμός = 0
 input.onGesture(Gesture.Shake, function () {
     basic.clearScreen()
+    basic.showIcon(IconNames.Square)
+    basic.showIcon(IconNames.SmallSquare)
+    basic.showIcon(IconNames.Square)
     αριθμός = randint(1, 6)
     if (αριθμός == 1) {
         images.createImage(`
