@@ -67,8 +67,16 @@ input.onGesture(Gesture.Shake, function () {
     }
 })
 input.onButtonPressed(Button.A, function () {
+    basic.showIcon(IconNames.Square)
+    basic.showIcon(IconNames.Diamond)
+    basic.showIcon(IconNames.SmallSquare)
+    basic.showIcon(IconNames.SmallDiamond)
     basic.clearScreen()
 })
 input.onButtonPressed(Button.B, function () {
+    basic.showIcon(IconNames.Square)
+    basic.showIcon(IconNames.Diamond)
+    basic.showIcon(IconNames.SmallSquare)
+    basic.showIcon(IconNames.SmallDiamond)
     basic.clearScreen()
 })
