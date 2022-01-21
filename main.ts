@@ -63,5 +63,8 @@ input.onGesture(Gesture.Shake, function () {
     }
 })
 input.onButtonPressed(Button.A, function () {
-	
+    basic.clearScreen()
+})
+input.onButtonPressed(Button.B, function () {
+    basic.clearScreen()
 })
