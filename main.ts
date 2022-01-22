@@ -67,6 +67,7 @@ input.onGesture(Gesture.Shake, function () {
     }
 })
 input.onButtonPressed(Button.A, function () {
+    led.setBrightness(255)
     basic.showIcon(IconNames.Square)
     basic.showIcon(IconNames.Diamond)
     basic.showIcon(IconNames.SmallSquare)
@@ -74,6 +75,7 @@ input.onButtonPressed(Button.A, function () {
     basic.clearScreen()
 })
 input.onButtonPressed(Button.B, function () {
+    led.setBrightness(100)
     basic.showIcon(IconNames.Square)
     basic.showIcon(IconNames.Diamond)
     basic.showIcon(IconNames.SmallSquare)
